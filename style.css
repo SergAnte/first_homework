@@ -1,0 +1,454 @@
+body {
+
+	text-decoration: #606060;
+	font-family: "Helvetica", bold;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 20%;
+	margin-top: 500px;
+	border-style: solid;
+	border-color: blue;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	margin-right: 20%;
+}
+
+
+
+.button {
+	background-color: blue;
+	display: flex;	
+	width:  150px;
+	height: 60px;
+	border-radius: 5px;
+	text-decoration: underline;
+	font-size: 20px;
+}	
+
+
+h1 {
+	color: #0844a4;
+	font-size: 70px;
+}
+
+h2 {
+	color: #0844a4;
+	font-size: 50px;
+	margin: 15px;
+}
+
+.a {
+	color: white;
+	top: center;
+	left: center;
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+ a:visited, a:focus, a:hover {
+    color: #0844a4;
+  }
+
+.image {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-color: grey;
+}
+
+.container_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	color: #0844a4;
+	font-size: 2em;
+	padding: 10px;
+}
+
+.line {
+	font-size: 2em;
+	color: grey;
+}
+
+h2>span {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: large;
+}
+
+.container_about {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 50px;
+	margin: 50px;
+	align-items: stretch;
+}
+
+.about_header {
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.about_foto {
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+
+.my_strengths {
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+
+.my_goals {
+	display: inline-block;
+	padding: 50px;
+}
+
+.my_dreams {
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+
+
+.sticky {
+	  position: fixed;
+	  bottom: 0;
+	  right: 0;
+	  width: 250px;
+	  font-size: 50px;
+	  padding: 10px;
+	  color: red;
+}
+
+
+.grey_line {
+	color: 5px solid grey;
+}
+
+.container_experience {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.experience_header {
+	display: inline-block;
+	font-size: 50px;
+	color: #0844a4;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	bottom: 100px;
+}
+
+.experience_main1 {
+	display: flex;
+	font-size: 25px;	
+}
+
+.experience_main2_pie_chart {
+	display: flex;
+	height: 500px;
+	width: 140%;
+	margin: 50px;
+	margin-top: 100px;
+	font-size: 25px;
+	border: 2px solid black;
+	border-radius: 50%;
+	background: conic-gradient(red 0deg 100deg, blue 100deg 250deg, green 250deg 330deg, yellow 330deg 360deg);
+	
+}
+
+.pie_center	 {
+	position: relative;
+	width: 250px;
+  	height: 250px;
+  	top: 27%;
+  	left: 25%;
+  	border-radius: 50%;
+	border: 2px solid black;
+	 background-image:  
+     conic-gradient(white 0deg 100deg);
+}
+
+.experience_main3 {
+	display: flex;
+	font-size: 25px;
+	
+}
+
+.unit {
+  fill: none;
+  stroke-width: 10;
+}
+
+.unit:nth-child(1) {
+  stroke: #86cfa3;
+}
+
+.unit:nth-child(2) {
+  stroke: #a2c6e0;
+}
+
+.unit:nth-child(3) {
+  stroke: #ffc7ec;
+}
+
+.container_interests {
+	display: grid;
+	grid-template-rows: repeat(2fr);
+	grid-template-columns: repeat(2fr);
+	grid-template-areas:
+	"interest1 . interest2"
+	"interest1 . interest2";
+}
+
+.header_interests {
+	font-size: 50px;
+	color: #0844a4;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.center {
+	margin-left: 50%;
+	transform: translateX(-25%);
+	font-size: 70px;
+}
+
+.img_interest1 {
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	position: relative;
+	top: 100px;
+	left: 200px;
+}
+
+.overview1 {
+	display: grid;
+	grid-column: 1 / 2;
+	grid-row: 3 / 3;
+	line-height: 30px;
+	maxlength:100;
+	position: relative;
+}
+
+.overview {
+	font-size: 2em;
+	font-family: "Helvetica", bold;
+	color: blue;
+	}
+
+.overview2 {
+	display: grid;
+	grid-row: 1 / 2;
+	grid-column: 3 / 3;
+	font-size: 2em;
+	font-family: "Helvetica", bold;
+	color: blue;
+	position: relative;
+}	
+
+h3 {
+	font-size: 40px;
+	padding: 20px;
+	margin: 10px;
+	color: #0844a4;
+	font-family: "Helvetica", bold;
+}
+
+
+.interest2 {
+	display: grid;
+	grid-row: 1 / 2;
+	grid-column: 3 / 3;
+	padding-left: 250px;
+}
+
+.img_interest2 {
+	display: grid;
+	grid-column: 3 / 3;
+	grid-row: 3 / 3;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-left: 45px;
+}
+
+.container_getInTouch {
+	display: grid;
+	grid-template-rows: repeat(5, 20%);
+	grid-template-columns: repeat(5, 20%);
+	grid-template-areas: 
+	" . header header header . "
+	" . . . . . "
+	" . message message message . "
+	" . message message message . "
+	" . email name send . ";
+}
+
+.header_getInTouch {
+	display: grid;
+	grid-column: 3 / 5;
+	grid-row: 1 / 2;
+	align-items: center;
+	font-size: 50px;
+	padding-left: 100px;
+}
+
+.container_message {
+	display: grid;
+	grid-column: 2 / 5;
+	grid-row: 3 / 5;
+	border: 2px solid blue;
+}
+
+.email {
+	display: grid;
+	grid-row: 5 / 5;
+	grid-column: 2 / 3;
+	border: 2px solid blue;
+	margin: 20px;
+	margin-left: 0;
+
+}
+
+.name {
+	display: grid;
+	grid-column: 3 / 4;
+	grid-row: 5 / 5;
+	border: 2px solid blue;
+	margin: 20px;
+}
+
+.button_send {
+	display: grid;
+	grid-row: 5 / 5;
+	grid-column: 4 / 5;
+	border: 2px solid blue;
+	margin: 20px;
+	margin-right: 0;
+	background-color: blue;
+}
+
+.send {
+	font-size: 40px;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 -5px;
+}
+
+.facebook {
+	display: flex;
+  	padding: 20px;
+}
+
+.instagram {
+	display: flex;
+	padding: 20px;
+}
+
+.twitter {
+	display: flex;
+	padding: 20px;
+}
+
+.tiktok {
+	display: flex;
+	padding: 20px;
+}
+
+.inc {
+	margin-left: 50%;
+	transform: translateX(-11%);
+}
+
+.text {
+	padding: 50px;
+	margin: 25px;
+}
+
+.programming {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 -5px;
+	padding: 20px;
+	margin: 0 -5px
+}
+
+.html {
+	display: flex;
+	padding: 20px;
+	width: 4%;
+	height: 5%;
+	background-color: red;
+	border-radius: 20px;
+	margin: 0 5px;
+	border: 2px solid black;
+}
+
+.css {
+	display: flex;
+	padding: 20px;
+	width: 4%;
+	height: 5%;
+	background-color: blue;
+	border-radius: 20px;
+	margin: 0 5px;
+	border: 2px solid black;
+}
+
+.js {
+	display: flex;
+	padding: 20px;
+	width: 4%;
+	height: 5%;
+	background-color: green;
+	border-radius: 20px;
+	margin: 0 5px;
+	border: 2px solid black;
+}
+
+.php {
+	display: flex;
+	padding: 20px;
+	width: 4%;
+	height: 5%;
+	background-color: yellow;
+	border-radius: 20px;
+	margin: 0 5px;
+	border: 2px solid black;
+}
+
+.prog {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	font-size: 20px;
+	font-weight: bold;
+}
+
